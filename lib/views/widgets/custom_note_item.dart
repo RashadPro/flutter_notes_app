@@ -7,14 +7,14 @@ class CustomNoteItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
+      decoration: BoxDecoration(
+        color: Colors.orange,
+        borderRadius: BorderRadius.circular(16),
+      ),
       padding: const EdgeInsets.only(
         top: 24,
         bottom: 24,
         left: 16,
-      ),
-      decoration: BoxDecoration(
-        color: Colors.blue,
-        borderRadius: BorderRadius.circular(16),
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.end,
@@ -42,7 +42,7 @@ class CustomNoteItem extends StatelessWidget {
               icon: const Icon(
                 FontAwesomeIcons.trash,
                 color: Colors.black,
-                size: 24,
+                size: 28,
               ),
             ),
           ),
