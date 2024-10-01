@@ -20,6 +20,7 @@ class CustomAppBar extends StatelessWidget {
         //Icon -> Search
         CustomIconButton(
           icon: icon,
+          
         ),
       ],
     );
