@@ -6,6 +6,7 @@ FloatingActionButton floatingActionButton(BuildContext context) {
   return FloatingActionButton(
     onPressed: () {
       showModalBottomSheet(
+        isScrollControlled: true,
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(16),
         ),
