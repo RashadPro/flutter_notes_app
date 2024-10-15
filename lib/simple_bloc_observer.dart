@@ -10,11 +10,14 @@ class MyBlocObserver implements BlocObserver {
 
   @override
   void onClose(BlocBase bloc) {
+
+    debugPrint('Close $bloc');
     // TODO: implement onClose
   }
 
   @override
   void onCreate(BlocBase bloc) {
+    debugPrint('Create $bloc');
     // TODO: implement onCreate
   }
 
