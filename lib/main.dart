@@ -21,7 +21,7 @@ void main() async {
 }
 
 class NotesApp extends StatelessWidget {
-  const NotesApp({Key? key}) : super(key: key);
+  const NotesApp({super.key});
 
   @override
   Widget build(BuildContext context) {
