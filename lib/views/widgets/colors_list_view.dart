@@ -5,9 +5,7 @@ import 'package:notes_app/cubits/add_note_cubit/add_note_cubit.dart';
 
 class ColorItem extends StatelessWidget {
   const ColorItem({super.key, required this.isActive, required this.color});
-
   final bool isActive;
-
   final Color color;
   @override
   Widget build(BuildContext context) {
